@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UbuntuTerminal" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/ut_ubuntu_orange</item>
+        <item name="colorPrimaryVariant">@color/ut_ubuntu_orange_dark</item>
+        <item name="colorOnPrimary">@color/ut_white</item>
+        <item name="colorSecondary">@color/ut_ubuntu_orange</item>
+        <item name="colorOnSecondary">@color/ut_white</item>
+        <item name="android:windowBackground">@color/ut_term_bg</item>
+        <item name="android:statusBarColor">@color/ut_term_bg</item>
+        <item name="android:navigationBarColor">@color/ut_term_bg</item>
+    </style>
+</resources>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="ut_app_name">أوبونتو ترمينال</string>
+
+    <!-- شاشة الإعداد -->
+    <string name="ut_setup_title">Ubuntu 26.04 LTS</string>
+    <string name="ut_setup_subtitle">Resolute Raccoon • عبر PRoot • بدون صلاحيات رووت</string>
+    <string name="ut_setup_desc">يقوم هذا التطبيق بتنزيل نظام ملفات أوبونتو الرسمي المصغّر (حوالي 34 ميغابايت) عند أول تشغيل، ثم يشغّله محلياً على جهازك عبر PRoot مع طرفية حقيقية (bash وapt وأي حزمة تثبّتها بنفسك).</string>
+    <string name="ut_setup_note">تحتاج اتصالاً بالإنترنت عند التنزيل الأول فقط.</string>
+    <string name="ut_btn_install">تنزيل وتثبيت أوبونتو</string>
+    <string name="ut_btn_retry">إعادة المحاولة</string>
+    <string name="ut_stage_downloading">جارٍ تنزيل أوبونتو…</string>
+    <string name="ut_stage_extracting">جارٍ استخراج نظام الملفات…</string>
+    <string name="ut_stage_configuring">جارٍ إعداد النظام…</string>
+    <string name="ut_stage_done">جارٍ تشغيل الطرفية…</string>
+    <string name="ut_install_failed">فشل التثبيت</string>
+    <string name="ut_error_no_network">لا يوجد اتصال بالإنترنت. تحقق من الاتصال ثم أعد المحاولة.</string>
+    <string name="ut_error_unsupported_arch">معمارية المعالج غير مدعومة: %1$s</string>
+
+    <!-- الطرفية -->
+    <string name="ut_session_ended">انتهت جلسة الطرفية</string>
+    <string name="ut_btn_restart_session">بدء جلسة جديدة</string>
+    <string name="ut_btn_back_to_setup">العودة للإعداد</string>
+
+    <!-- القائمة -->
+    <string name="ut_menu_copy">نسخ التحديد</string>
+    <string name="ut_menu_paste">لصق</string>
+    <string name="ut_menu_restart">إعادة تشغيل الجلسة</string>
+    <string name="ut_menu_screenfix">إصلاح حالة الطرفية</string>
+    <string name="ut_screenfix_title">إعادة ضبط حالة الطرفية؟</string>
+    <string name="ut_screenfix_msg">استخدم هذا إذا بدت الطرفية معطّلة بعد خروج برنامج (مثل opencode) بشكل غير طبيعي — يعيد ضبط الشاشة والفأرة والمؤشر إلى حالتهم الطبيعية.</string>
+    <string name="ut_menu_reinstall">حذف وإعادة تثبيت أوبونتو</string>
+    <string name="ut_menu_diagnose">تشخيص النظام</string>
+    <string name="ut_menu_sessions">الجلسات</string>
+    <string name="ut_menu_settings">الإعدادات</string>
+    <string name="ut_menu_monitor">مراقبة الموارد</string>
+    <string name="ut_menu_files">مدير الملفات</string>
+    <string name="ut_menu_about">حول التطبيق</string>
+    <string name="ut_menu_exit">خروج</string>
+
+    <string name="ut_confirm_reinstall_title">إعادة تثبيت أوبونتو؟</string>
+    <string name="ut_confirm_reinstall_msg">سيتم حذف نظام أوبونتو المنزّل ومجلد المنزل (/root) ثم تنزيلهما من جديد.</string>
+    <string name="ut_dialog_yes">نعم</string>
+    <string name="ut_dialog_no">لا</string>
+    <string name="ut_copied">تم النسخ</string>
+    <string name="ut_nothing_to_paste">الحافظة فارغة</string>
+
+    <string name="ut_about_title">حول التطبيق</string>
+    <string name="ut_about_text">يشغّل هذا التطبيق صورة أوبونتو 26.04 LTS الرسمية المصغّرة (ubuntu-base) داخل حاوية PRoot — بدون صلاحيات رووت.\n\n• محاكاة الطرفية: مكتبات Termux terminal-emulator / terminal-view\n• PRoot: نسخة Termux المعدّلة مع link2symlink\n• نظام الملفات: ubuntu-base 26.04.1 من Canonical\n\nنصيحة: نفّذ الأمر \'apt update\' أولاً ثم ثبّت الحزم بـ \'apt install …\'. وحدة التخزين المشتركة مثبتة داخل النظام في المسار /sdcard.</string>
+
+    <!-- التشخيص والإصلاح -->
+    <string name="ut_diag_title">تقرير تشخيص النظام</string>
+    <string name="ut_repair_applied">تمت إعادة صلاحيات التنفيذ تلقائياً</string>
+    <string name="ut_rootfs_broken_title">تثبيت أوبونتو تالف</string>
+    <string name="ut_rootfs_broken_msg">ملفات النظام الأساسية مفقودة من نظام أوبونتو المثبَّت. من فضلك احذفه وأعد تثبيته من القائمة ⋮ (حذف وإعادة تثبيت أوبونتو).\n\n%1$s</string>
+    <string name="ut_exec_blocked_title">هذا الجهاز يمنع تنفيذ الملفات من تخزين التطبيق</string>
+    <string name="ut_exec_blocked_msg">الملفات موجودة وتحمل صلاحية التنفيذ، لكن نظام التشغيل يرفض تشغيلها (قيود SELinux من الشركة المصنّعة). هذه القيود تؤثر أيضاً على تطبيقات مثل Termux على هذه الأجهزة.\n\n%1$s</string>
+
+    <!-- القائمة الجانبية والخلفية -->
+    <string name="ut_drawer_title">الجلسات</string>
+    <string name="ut_new_session">جلسة جديدة</string>
+    <string name="ut_session_name_fmt">جلسة %1$d</string>
+    <string name="ut_session_ended_toast_fmt">انتهت: %1$s</string>
+    <string name="ut_notif_channel">الجلسات في الخلفية</string>
+    <string name="ut_notif_title">أوبونتو ترمينال</string>
+    <string name="ut_notif_text_fmt">جلسات نشطة: %1$d — تعمل في الخلفية</string>
+
+    <!-- الوصول لملفات الجهاز -->
+    <string name="ut_menu_storage">الوصول لملفات الجهاز</string>
+    <string name="ut_storage_title">الوصول لملفات الجهاز</string>
+    <string name="ut_storage_msg">وحدة التخزين المشتركة لهاتفك (Download وDCIM وغيرها) متاحة داخل أوبونتو في المسار /sdcard. امنح التطبيق صلاحية التخزين لتتمكن من قراءة ملفات جهازك والكتابة فيها من الطرفية.</string>
+    <string name="ut_storage_status_granted">الصلاحية: ممنوحة ✓</string>
+    <string name="ut_storage_status_denied">الصلاحية: غير ممنوحة</string>
+    <string name="ut_btn_grant">منح الصلاحية</string>
+    <string name="ut_btn_later">لاحقاً</string>
+    <string name="ut_btn_all_files">الوصول لكل الملفات…</string>
+    <string name="ut_storage_granted_toast">تم منح صلاحية التخزين — ملفاتك في /sdcard</string>
+    <string name="ut_storage_denied_toast">تم رفض الصلاحية — سيبقى /sdcard غير متاح</string>
+    <string name="ut_copy_text">نسخ</string>
+    <string name="ut_paste_text">لصق</string>
+    <string name="ut_text_selection_more">المزيد…</string>
+    <string name="ut_dapi_channel">التحكم في الجهاز (dapi)</string>
+    <string name="ut_mouse_mode_on">وضع الفأرة مفعّل — النقر والسحب يعملان تلقائياً داخل التطبيقات الداعمة للفأرة</string>
+    <string name="ut_mouse_mode_off">وضع الفأرة متوقف — اللمس يمرّر شاشة الطرفية</string>
+    <string name="ut_app_version_fmt">الإصدار %1$s</string>
+    <string name="ut_diag_bridge_fmt">اختبار جسر dapi: %1$s</string>
+</resources>

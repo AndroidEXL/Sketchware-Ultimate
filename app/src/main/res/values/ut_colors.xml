@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ut_ubuntu_orange">#E95420</color>
+    <color name="ut_ubuntu_orange_dark">#B3401A</color>
+    <color name="ut_term_bg">#121212</color>
+    <color name="ut_term_fg">#EEEEEE</color>
+    <color name="ut_white">#FFFFFF</color>
+    <color name="ut_ic_launcher_background">#E95420</color>
+</resources>
